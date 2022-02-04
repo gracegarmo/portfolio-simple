@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 5%;
+    font-family: 'Poppins', 'Georgia', 'Times New Roman';
+    color: #000000;
+    background-color: #FFE5D4;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    padding: 12px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 12px;
+}
+
+p {
+    font-weight: 400;
+    line-height: 2;
+}
+
+img {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    border: 5px groove #E35550;
+    padding: 10px;
+}
+
+img:hover {
+    border: 5px dashed #E35550;
+}
+
+nav {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.title {
+    color: #E35550;
+}
+
+nav li {
+    background-color: #FFE5D4;
+    color: #000000;
+    padding: 10px;
+    display: inline-block;
+    width: 10%;
+}
+
+footer p {
+    text-align: center;
+}
+
+.active {
+    border: 3px solid #E35550;
+    border-radius: 20px;
+    background-color: #f1dbdb;
+}
+
+li.active a {
+    color: #000000;
+}
+
+a:visited{color: #000000;}
+
+a:link{text-decoration: none}
+
+hr {
+    background-color: #E35550;
+    height: 6px;
+}
+
+nav a:hover {
+    color: #E35550;
+}
+
+.skip:hover{
+    color: #E35550;
+}
+
+.styled-img{
+    margin-bottom: 20px;
+}
+
+.image-container .styled-img:nth-child(2n) {
+    border: 5px groove #000000;
+}
